@@ -63,14 +63,14 @@ public class BungeeBan extends Plugin {
         pm.registerListener(this, new MuteHandler());
         pm.registerListener(this, new UnmuteHandler());
         pm.registerListener(this, new MiscHandler());
-        pm.registerCommand(this, new BanCommand("ban"));
-        pm.registerCommand(this, new KickCommand("kick"));
-        pm.registerCommand(this, new MuteCommand("mute"));
-        pm.registerCommand(this, new TempbanCommand("tempban"));
-        pm.registerCommand(this, new TempmuteCommand("tempmute"));
-        pm.registerCommand(this, new UnbanCommand("unban"));
-        pm.registerCommand(this, new UnmuteCommand("unmute"));
-        pm.registerCommand(this, new CheckCommand("check"));
+        pm.registerCommand(this, new BanCommand("bgban"));
+        pm.registerCommand(this, new KickCommand("bgkick"));
+        pm.registerCommand(this, new MuteCommand("bgmute"));
+        pm.registerCommand(this, new TempbanCommand("bgtempban"));
+        pm.registerCommand(this, new TempmuteCommand("bgtempmute"));
+        pm.registerCommand(this, new UnbanCommand("bgunban"));
+        pm.registerCommand(this, new UnmuteCommand("bgunmute"));
+        pm.registerCommand(this, new CheckCommand("bgcheck"));
     }
 
     public void log(String str) {
