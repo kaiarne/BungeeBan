@@ -5,11 +5,11 @@ description: A fully customizable and easy to use BungeeCord plugin managing Ban
 website: https://github.com/vincidev/BungeeBan
 main: de.vincidev.bungeeban.BungeeBan
 commands:
-  ban:
-  unban:
-  tempban:
-  mute:
-  unmute:
-  tempmute:
-  kick:
-  check:
+  bgban:
+  bgunban:
+  bgtempban:
+  bgmute:
+  bgunmute:
+  bgtempmute:
+  bgkick:
+  bgcheck:
